@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>DockablePanelScreenScaleTest</Name>
+    <Assembly>Revit_FixDockablePanelOnScreenScale.dll</Assembly>
+    <AddInId>d86c2760-d8d6-4d07-baef-d2975560cfa1</AddInId>
+    <FullClassName>Revit_FixDockablePanelOnScreenScale.App</FullClassName>
+    <VendorId>Пекшев Александр aka Modis</VendorId>
+    <VendorDescription>ModPlus, https://modplus.org</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>Revit_FixDockablePanelOnScreenScale.dll</Assembly>
+    <ClientId>10054c88-a852-4a0f-8262-2fe36ffc6539</ClientId>
+    <FullClassName>Revit_FixDockablePanelOnScreenScale.Command</FullClassName>
+    <Text>Test dockable panel</Text>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <LanguageType>Unknown</LanguageType>
+    <VendorId>Пекшев Александр aka Modis</VendorId>
+    <VendorDescription>ModPlus, https://modplus.org</VendorDescription>
+  </AddIn>
+</RevitAddIns>

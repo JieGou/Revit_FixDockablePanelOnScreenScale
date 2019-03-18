@@ -1,0 +1,16 @@
+﻿<Page x:Class="Revit_FixDockablePanelOnScreenScale.PanelContent"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="clr-namespace:Revit_FixDockablePanelOnScreenScale">
+    <local:ScreenScaleDecorator>
+        <Grid Background="White">
+            <GroupBox Header="Some group box">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="22" Text="Hello world" HorizontalAlignment="Center"></TextBlock>
+                    <TextBlock Text="This is some kind of long text that, when the screen is scaled, should go beyond the panel borders"
+                           TextWrapping="Wrap"></TextBlock>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+    </local:ScreenScaleDecorator>
+</Page>
